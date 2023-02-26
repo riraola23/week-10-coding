@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for ="drop-off-date">Drop Off Date</label>
+                        <input type="date" class="form-control" id="drop-off-date">
+                    </div>
+
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for ="pick-up-date">Pick Up Date</label>
+                        <input type="date" class="form-control" id="pick-up-date">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <br>
+                        <label for ="dog-breed">Dog Breed</label>
+                        <input type="text" class="form-control" id="dog-breed" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <br>
+                        <label for ="allergies">Allergies</label>
+                        <input type="text" class="form-control" id="allergies" placeholder="">>
+
+                </div>
+            </div>
+            <br>
+            <div>
+                <button id="add" class="btn btn-primary form-control">Submit</button>
+            </div>
+        </div>
+    </div>
+    <table id="list" class="table table-light table-hover table-striped">
+        <tr>
+            <th>Dog Breed</th>
+            <th>Appoinment Created</th>
+            <th>Drop off Date</th>
+            <th>Pick up Date</th>
+            <th>Allergies</th>
+
+        </tr>
+
+    </table>
+    
+
+
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="week10.js"></script>
+</body>
+</html>
